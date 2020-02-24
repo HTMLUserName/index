@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="placeholder"></view>
+  <view class="biaotou">
+  </view>
+
+  <view class="tab">
+    <view id="id">官方资讯</view>
+    <text id="id2" bindtap="Tiaozhaun"></text>
+  </view>
+
+  <swiper autoplay="true" indicator-dots="true">
+    <swiper-item>
+      <image bindtap="Tiaozhaun" class="image" src="/pages/img/7.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image bindtap="Tiaozhaun1" class="image" src="/pages/img/2.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="tefo">
+    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
+
+    <text class="ziti">新华社</text>
+    <text class="ziti1">转发3 查看:3 点赞:3</text>
+    
+
+
+  </view>
+
+  <view class="tefo">
+    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
+    <text class="ziti">新华社</text>
+    <text class="ziti1">转发3 查看:3 点赞:3</text>
+  </view>
+
+  <view class="tefo">
+    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
+    <text class="ziti">新华社</text>
+    <text class="ziti1">转发3 查看:3 点赞:3</text>
+  </view>
+
+
+<view class="footer">
+  <view bindtap="Tiaozhaun4" class="botem">
+    <image src="/pages/img/4.jpg"></image>
+    <image src="/pages/img/3.jpg"></image>
+    <image src="/pages/img/5.jpg"></image>
+    <image src="/pages/img/6.jpg"></image>
+    <text>用车</text>
+    <text>买车</text>
+    <text>车友</text>
+    <text>我的</text>
+  </view>
+</view>
+
+</view>

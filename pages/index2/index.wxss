@@ -58,11 +58,11 @@
   border-radius: 10px;
 }
 
-#tefo1 {
+#tefo1 {/*正文第一张车图边距*/
   margin-top: 30px;
 }
 
-#tefo2 {
+#tefo2 {/*正文第二张车图边距*/
   margin-bottom: 55px;
 }
 
@@ -102,33 +102,6 @@
 }
 
 .tefo .artice .images1 {
-  width: 10px;
-  height: 10px;
-  margin-top: 3px;
-}
-
-.tefo .artice .hang1 {
-  display: flex;
-}
-
-.artice .hang1 text {
-  font-size: 10px;
-}
-
-.tefo .artice .author1 {
-  margin-left: 20px;
-  margin-bottom: 5em;
-  font-size: 10px;
-}
-
-.tefo .artice1 .images {
-  width: 10px;
-  height: 10px;
-  margin-left: 11.5em;
-  margin-top: 3px;
-}
-
-.tefo .artice1 .images1 {
   width: 10px;
   height: 10px;
   margin-top: 3px;

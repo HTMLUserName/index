@@ -18,22 +18,24 @@ Page({
     }],
 
     zhengwen1: [{
-      zhengwentu1: "/pages/img/1.jpg",
-      /*汽车图 */
-      zhengwentu2: "/pages/img/8.jpg",
-      /*转载图 */
-      zhengwentu3: "/pages/img/9.jpg",
-      /*回复图 */
-      zhengwentu4: "/pages/img/10.jpg",
-      /*点赞图 */
-      zhengwen: "全球十大豪车,迈特论丶法拉利垫底...",
-      zuozhe: "新华社",
-      zhuanfashu: "1",
-      pinglunshu: "2",
-      dianzanshu: "3"
-    }],
+        /* 第一张图边距*/
+        bianju: "tefo1",
+        /*汽车图 */
+        zhengwentu1: "/pages/img/1.jpg",
+        /*转载图 */
+        zhengwentu2: "/pages/img/8.jpg",
+        /*回复图 */
+        zhengwentu3: "/pages/img/9.jpg",
+        /*点赞图 */
+        zhengwentu4: "/pages/img/10.jpg",
 
-    zhengwen2: [{
+        zhengwen: "全球十大豪车,迈特论丶法拉利垫底...",
+        zuozhe: "新华社",
+        zhuanfashu: "1",
+        pinglunshu: "2",
+        dianzanshu: "3"
+      },
+      {
         zhengwentu1: "/pages/img/1.jpg",
         zhengwentu2: "/pages/img/8.jpg",
         zhengwentu3: "/pages/img/9.jpg",
@@ -54,20 +56,21 @@ Page({
         zhuanfashu: "7",
         pinglunshu: "8",
         dianzanshu: "9"
+      },
+      {
+        /* 第四张图边距*/
+        bianju1: "tefo2",
+        zhengwentu1: "/pages/img/1.jpg",
+        zhengwentu2: "/pages/img/8.jpg",
+        zhengwentu3: "/pages/img/9.jpg",
+        zhengwentu4: "/pages/img/10.jpg",
+        zhengwen: "全球十大豪车,迈特论丶法拉利垫底...",
+        zuozhe: "新华社",
+        zhuanfashu: "10",
+        pinglunshu: "11",
+        dianzanshu: "12"
       }
     ],
-
-    zhengwen4: [{
-      zhengwentu1: "/pages/img/1.jpg",
-      zhengwentu2: "/pages/img/8.jpg",
-      zhengwentu3: "/pages/img/9.jpg",
-      zhengwentu4: "/pages/img/10.jpg",
-      zhengwen: "全球十大豪车,迈特论丶法拉利垫底...",
-      zuozhe: "新华社",
-      zhuanfashu: "10",
-      pinglunshu: "11",
-      dianzanshu: "12"
-    }],
 
     weibu: [{
       weibutupian1: "/pages/img/4.jpg",

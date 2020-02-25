@@ -7,62 +7,28 @@
     <text id="id2" bindtap="Tiaozhaun">{{item.biaotou1}}</text>
   </view>
 
-
   <scroll-view class="image-group" scroll-x="true" wx:for="{{xunhuan}}">
     <image bindtap="Tiaozhaun" class="image" src="{{item.xunhuantu1}}" />
     <image bindtap="Tiaozhaun1" class="image" src="{{item.xunhuantu2}}" />
   </scroll-view>
 
-
   <view bindtap="Tiaozhaun2" class="tefo" wx:for="{{zhengwen1}}">
-    <image id="tefo1" src="{{item.zhengwentu1}}"></image>
-    <view class="artice">
-      <text class="title">{{item.zhengwen}}</text>
-      <view class="hang">
-        <view class="author">{{item.zuozhe}}</view>
-        <image class="images" src="{{item.zhengwentu2}}" />
-        <text>{{item.zhuanfashu}}</text>
-        <image class="images1" src="{{item.zhengwentu3}}" />
-        <text>{{item.pinglunshu}}</text>
-        <image class="images1" src="{{item.zhengwentu4}}" />
-        <text>{{item.dianzanshu}}</text>
+    <view id="{{item.bianju1}}">
+      <image id="{{item.bianju}}" src="{{item.zhengwentu1}}"></image>
+      <view class="artice">
+        <text class="title">{{item.zhengwen}}</text>
+        <view class="hang">
+          <view class="author">{{item.zuozhe}}</view>
+          <image class="images" src="{{item.zhengwentu2}}" />
+          <text>{{item.zhuanfashu}}</text>
+          <image class="images1" src="{{item.zhengwentu3}}" />
+          <text>{{item.pinglunshu}}</text>
+          <image class="images1" src="{{item.zhengwentu4}}" />
+          <text>{{item.dianzanshu}}</text>
+        </view>
       </view>
     </view>
   </view>
-
-  <view bindtap="Tiaozhaun2" class="tefo" wx:for="{{zhengwen2}}">
-    <image src="{{item.zhengwentu1}}"></image>
-    <view class="artice">
-      <text class="title">{{item.zhengwen}}</text>
-      <view class="hang">
-        <view class="author">{{item.zuozhe}}</view>
-        <image class="images" src="{{item.zhengwentu2}}" />
-        <text>{{item.zhuanfashu}}</text>
-        <image class="images1" src="{{item.zhengwentu3}}" />
-        <text>{{item.pinglunshu}}</text>
-        <image class="images1" src="{{item.zhengwentu4}}" />
-        <text>{{item.dianzanshu}}</text>
-      </view>
-    </view>
-  </view>
-
-  <view bindtap="Tiaozhaun2" class="tefo" wx:for="{{zhengwen4}}">
-    <image id="tefo2" src="{{item.zhengwentu1}}"></image>
-    <view class="artice">
-      <text class="title">{{item.zhengwen}}</text>
-      <view class="hang1">
-        <view class="author1">{{item.zuozhe}}</view>
-        <image class="images" src="{{item.zhengwentu2}}" />
-        <text>{{item.zhuanfashu}}</text>
-        <image class="images1" src="{{item.zhengwentu3}}" />
-        <text>{{item.pinglunshu}}</text>
-        <image class="images1" src="{{item.zhengwentu4}}" />
-        <text>{{item.dianzanshu}}</text>
-      </view>
-    </view>
-  </view>
-
-
 
   <view class="footer" wx:for="{{weibu}}">
     <view bindtap="Tiaozhaun4" class="botem">

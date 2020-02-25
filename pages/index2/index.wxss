@@ -10,63 +10,143 @@
   background: #fff;
 }
 
-#id {
+.tab {
+  font-size: 15px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.tab #id {
   font-weight: bold;
-  margin-top: 15px;
-  margin-right: 234px;
   margin-left: 20px;
   border-bottom: 3px solid #e71616;
 }
 
-#id2 {
+.tab #id2 {
+  margin-left: 20px;
+}
+
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 30rpx;
+}
+
+.image-group image {
+  display: inline-block;
+  width: 300px;
+  height: 180px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .image {
-  margin-left: 10px;
   border-radius: 10px;
-  width: 300px;
-  margin-top: 2em;
+  width: 18em;
+  height: 10em;
 }
 
 .tefo {
-  margin-left: 10px;
-  border-radius: 10px;
-  width: 300px;
-  overflow: hidden;
-  margin-top: 2em;
-  padding-bottom: 0.8em;
-  background: #fff;
-  box-shadow: 2px 2px 5px #b1b1b1;
+  position: relative;
 }
 
-.tefo .ziti {
+.tefo image {
   margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#tefo1 {
+  margin-top: 30px;
+}
+
+#tefo2 {
+  margin-bottom: 55px;
+}
+
+.tefo text {
+  display: block;
+  color: rgb(8, 8, 8);
+}
+
+.tefo .artice {
+  position: absolute;
+  bottom: 0.5em;
+}
+
+.tefo .artice .title {
+  margin: 0em 0em 8.5em 1.5em; /* 上 右 下 左*/
+  font-size: 13px;
+}
+
+.tefo .artice .hang {
+  display: flex;
+}
+
+.artice .hang text {
   font-size: 10px;
 }
 
-.ziti1{
-   font-size: 10px;
-  margin-left: 150px;
+.tefo .artice .author {
+  margin-left: 20px;
+  font-size: 10px;
 }
 
-.img {
-  width: 100%;
-  height: 100px;
+.tefo .artice .images {
+  width: 10px;
+  height: 10px;
+  margin-left: 11.5em;
+  margin-top: 3px;
 }
 
-.footer{
-height: 3.5em;
- border-top: 1px solid #f1ebeb;
- position: fixed;
- bottom: 0;
- left: 0;
- z-index: 999;
- background: #fff;
+.tefo .artice .images1 {
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+}
+
+.tefo .artice .hang1 {
+  display: flex;
+}
+
+.artice .hang1 text {
+  font-size: 10px;
+}
+
+.tefo .artice .author1 {
+  margin-left: 20px;
+  margin-bottom: 5em;
+  font-size: 10px;
+}
+
+.tefo .artice1 .images {
+  width: 10px;
+  height: 10px;
+  margin-left: 11.5em;
+  margin-top: 3px;
+}
+
+.tefo .artice1 .images1 {
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+}
+
+.footer {
+  height: 3.5em;
+  border-top: 1px solid #f1ebeb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background: #fff;
 }
 
 .botem {
-  height: 3em;
-  border-top: 1px solid #e8e8e8;
+  height: 2em;
+  border-top: 1px solid #e8e8e8; /*阴影*/
   width: 100%;
   bottom: 0;
   left: 0;
@@ -75,16 +155,14 @@ height: 3.5em;
 }
 
 .botem image {
-  width: 2em;
-  height: 2em;
-  margin: auto 1.5em;
+  width: 20px;
+  height: 20px;
+  margin: auto 1.8em;
   vertical-align: middle;
 }
 
 .botem text {
   font-size: 10px;
   color: #b1b1b1;
-  margin: auto 3em;
+  margin: auto 2.9em;
 }
-
-

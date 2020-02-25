@@ -1,57 +1,94 @@
 <!--index.wxml-->
 <view class="page">
-  <view class="placeholder"></view>
   <view class="biaotou">
   </view>
 
   <view class="tab">
     <view id="id">官方资讯</view>
-    <text id="id2" bindtap="Tiaozhaun"></text>
+    <text id="id2" bindtap="Tiaozhaun">用车知识</text>
   </view>
 
-  <swiper autoplay="true" indicator-dots="true">
-    <swiper-item>
-      <image bindtap="Tiaozhaun" class="image" src="/pages/img/7.jpg"></image>
-    </swiper-item>
-    <swiper-item>
-      <image bindtap="Tiaozhaun1" class="image" src="/pages/img/2.jpg"></image>
-    </swiper-item>
-  </swiper>
+  <scroll-view class="image-group" scroll-x="true">
+    <image bindtap="Tiaozhaun" class="image" src="/pages/img/7.jpg"></image>
+    <image bindtap="Tiaozhaun1" class="image" src="/pages/img/11.jpg"></image>
+  </scroll-view>
 
-  <view class="tefo">
-    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
-
-    <text class="ziti">新华社</text>
-    <text class="ziti1">转发3 查看:3 点赞:3</text>
-    
-
-
+  <view bindtap="Tiaozhaun2" class="tefo">
+    <image id="tefo1" src="/pages/img/1.jpg"></image>
+    <view class="artice">
+      <text class="title">全球十大豪车,迈特论丶法拉利垫底...</text>
+      <view class="hang">
+        <view class="author">新华社</view>
+        <image class="images" src="/pages/img/8.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/9.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/10.jpg"></image>
+        <text>3</text>
+      </view>
+    </view>
   </view>
 
-  <view class="tefo">
-    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
-    <text class="ziti">新华社</text>
-    <text class="ziti1">转发3 查看:3 点赞:3</text>
+  <view bindtap="Tiaozhaun2" class="tefo">
+    <image src="/pages/img/1.jpg"></image>
+    <view class="artice">
+      <text class="title">全球十大豪车,迈特论丶法拉利垫底...</text>
+      <view class="hang">
+        <view class="author">新华社</view>
+        <image class="images" src="/pages/img/8.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/9.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/10.jpg"></image>
+        <text>3</text>
+      </view>
+    </view>
   </view>
 
-  <view class="tefo">
-    <image bindtap="Tiaozhaun2" class="img" src="/pages/img/1.jpg"></image>
-    <text class="ziti">新华社</text>
-    <text class="ziti1">转发3 查看:3 点赞:3</text>
+  <view bindtap="Tiaozhaun2" class="tefo">
+    <image src="/pages/img/1.jpg"></image>
+    <view class="artice">
+      <text class="title">全球十大豪车,迈特论丶法拉利垫底...</text>
+      <view class="hang">
+        <view class="author">新华社</view>
+        <image class="images" src="/pages/img/8.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/9.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/10.jpg"></image>
+        <text>3</text>
+      </view>
+    </view>
+  </view>
+
+  <view bindtap="Tiaozhaun2" class="tefo">
+    <image id="tefo2" src="/pages/img/1.jpg"></image>
+    <view class="artice">
+      <text class="title">全球十大豪车,迈特论丶法拉利垫底...</text>
+      <view class="hang1">
+        <view class="author1">新华社</view>
+        <image class="images" src="/pages/img/8.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/9.jpg"></image>
+        <text>3</text>
+        <image class="images1" src="/pages/img/10.jpg"></image>
+        <text>3</text>
+      </view>
+    </view>
   </view>
 
 
-<view class="footer">
-  <view bindtap="Tiaozhaun4" class="botem">
-    <image src="/pages/img/4.jpg"></image>
-    <image src="/pages/img/3.jpg"></image>
-    <image src="/pages/img/5.jpg"></image>
-    <image src="/pages/img/6.jpg"></image>
-    <text>用车</text>
-    <text>买车</text>
-    <text>车友</text>
-    <text>我的</text>
+  <view class="footer">
+    <view bindtap="Tiaozhaun4" class="botem">
+      <image src="/pages/img/4.jpg"></image>
+      <image src="/pages/img/3.jpg"></image>
+      <image src="/pages/img/5.jpg"></image>
+      <image src="/pages/img/6.jpg"></image>
+      <text>用车</text>
+      <text>买车</text>
+      <text>车友</text>
+      <text>我的</text>
+    </view>
   </view>
-</view>
 
 </view>

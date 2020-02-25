@@ -97,7 +97,7 @@
 .tefo .artice .images {
   width: 10px;
   height: 10px;
-  margin-left: 11.5em;
+  margin-left: 10.5em;
   margin-top: 3px;
 }
 
